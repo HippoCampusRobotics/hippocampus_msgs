@@ -1,2 +1,2 @@
-Float64 position
-Int64 increments
+float64 position
+int64 increments

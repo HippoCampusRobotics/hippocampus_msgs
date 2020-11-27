@@ -1,2 +1,2 @@
-Header header
-Vector3 position
+std_msgs/Header header
+geometry_msgs/Vector3 position
