@@ -19,6 +19,8 @@ add_service_files(
   FILES
   SetFloat.srv
   SetInt.srv
+  GetFloat.srv
+  GetInt.srv
 )
 
 generate_messages(
