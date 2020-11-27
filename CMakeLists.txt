@@ -15,9 +15,11 @@ add_message_files(
   GantryPosition.msg
 )
 
-#add_service_files(
-#  FILES
-#)
+add_service_files(
+  FILES
+  SetFloat.srv
+  SetInt.srv
+)
 
 generate_messages(
   DEPENDENCIES
