@@ -1,0 +1,9 @@
+Header header
+Int32 automatic_response
+Int32 velocity_presetting
+Int32 mode
+Int32 power_amplifier
+Int32 position_controller
+Int32 analogue_direction
+Int32 position_limits
+Int32 sin_commutation
