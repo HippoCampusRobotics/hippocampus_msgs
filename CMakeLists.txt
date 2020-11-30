@@ -15,6 +15,8 @@ add_message_files(
   GantryPosition.msg
   PoseId.msg
   PoseIdStamped.msg
+  GantryMotorVelocity.msg
+  GantryVelocity.msg
   PathFollowerTarget.msg
 )
 
