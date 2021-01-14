@@ -18,6 +18,7 @@ add_message_files(
   GantryMotorVelocity.msg
   GantryVelocity.msg
   PathFollowerTarget.msg
+  GantryMotorLimitSwitches.msg
 )
 
 add_service_files(
