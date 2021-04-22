@@ -13,6 +13,8 @@ add_message_files(
   GantryConfig.msg
   GantryMotorPosition.msg
   GantryPosition.msg
+  PoseId.msg
+  PoseIdStamped.msg
 )
 
 add_service_files(
