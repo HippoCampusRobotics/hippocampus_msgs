@@ -1,0 +1,4 @@
+Header header
+geometry_msgs/Point current_position
+geometry_msgs/Point target_position
+int64 target_index
