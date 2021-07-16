@@ -1,4 +1,5 @@
 Header header
+bool active
 float64 thrust_min
 float64 thrust_max
 float64 base_thrust
