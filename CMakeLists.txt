@@ -10,9 +10,11 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   AttitudeTargetExt.msg
+  DistanceControlDebug.msg
   GantryConfig.msg
   GantryMotorPosition.msg
   GantryPosition.msg
+  PidDebug.msg
   PoseId.msg
   PoseIdStamped.msg
   GantryMotorVelocity.msg
