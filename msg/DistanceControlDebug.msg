@@ -5,5 +5,5 @@ float64 base_thrust
 float64 thrust
 float64 distance
 float64 distance_setpoint
-float64 leader_path_index
-float64 path_index
+int64 leader_path_index
+int64 path_index
