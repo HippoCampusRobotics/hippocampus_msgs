@@ -22,6 +22,7 @@ add_message_files(
   GantryVelocity.msg
   PathFollowerTarget.msg
   GantryMotorLimitSwitches.msg
+  DepthEKFStamped.msg
 )
 
 add_service_files(
