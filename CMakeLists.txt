@@ -23,6 +23,7 @@ add_message_files(
   PathFollowerTarget.msg
   GantryMotorLimitSwitches.msg
   DepthEKFStamped.msg
+  JoystickControlCommand.msg
 )
 
 add_service_files(
