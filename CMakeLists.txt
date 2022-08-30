@@ -32,6 +32,7 @@ add_service_files(
   SetInt.srv
   GantryGetFloat.srv
   GantrySetFloat.srv
+  GetBool.srv
   GetFloat.srv
   GetInt.srv
 )
