@@ -7,35 +7,29 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
 )
 
-add_message_files(
-  FILES
-  ActuatorControls.msg
-  AttitudeTargetExt.msg
-  DistanceControlDebug.msg
-  GantryConfig.msg
-  GantryMotorPosition.msg
-  GantryPosition.msg
-  PidDebug.msg
-  PoseId.msg
-  PoseIdStamped.msg
-  GantryMotorVelocity.msg
-  GantryVelocity.msg
-  PathFollowerTarget.msg
-  GantryMotorLimitSwitches.msg
-  DepthEKFStamped.msg
-  JoystickControlCommand.msg
+file(GLOB_RECURSE MSG_FILES
+  RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/msg"
+  "*.msg"
 )
 
-add_service_files(
-  FILES
-  SetFloat.srv
-  SetInt.srv
-  GantryGetFloat.srv
-  GantrySetFloat.srv
-  GetBool.srv
-  GetFloat.srv
-  GetInt.srv
+file(GLOB_RECURSE SRV_FILES
+  RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/srv"
+  "*.srv"
 )
+
+if(MSG_FILES)
+  add_message_files(
+    FILES
+    ${MSG_FILES}
+  )
+endif()
+
+if(SRV_FILES)
+  add_service_files(
+    FILES
+    ${SRV_FILES}
+  )
+endif()
 
 generate_messages(
   DEPENDENCIES
